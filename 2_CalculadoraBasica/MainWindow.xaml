@@ -14,7 +14,7 @@
         <TextBox x:Name="operador1TextBox" HorizontalAlignment="Left" Margin="188,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="operador2TextBox" HorizontalAlignment="Left" Margin="188,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="operadorTextBox" HorizontalAlignment="Left" Margin="188,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="OperadorTextBox_TextChanged"/>
-        <TextBox x:Name="resultadoTextBox" HorizontalAlignment="Left" Margin="188,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="resultadoTextBox" HorizontalAlignment="Left" Margin="188,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsReadOnly="True"/>
         <Button x:Name="calcularButton" Content="Calcular" HorizontalAlignment="Left" Margin="556,77,0,0" VerticalAlignment="Top" Width="100" FontSize="15" Click="CalcularButton_Click" IsEnabled="False"/>
         <Button x:Name="limpiarButton" Content="Limpiar" HorizontalAlignment="Left" Margin="556,108,0,0" VerticalAlignment="Top" Width="100" FontSize="15" Click="LimpiarButton_Click"/>
     </Grid>

@@ -27,8 +27,7 @@ namespace _2_CalculadoraBasica
         private void CalcularButton_Click(object sender, RoutedEventArgs e)
         {
             int solucion = 0;
-            int i;
-            if (int.TryParse(operador1TextBox.Text, out i) && int.TryParse(operador2TextBox.Text, out i))
+            if (int.TryParse(operador1TextBox.Text, out _) && int.TryParse(operador2TextBox.Text, out _))
             {
                 switch (operadorTextBox.Text)
                 {
